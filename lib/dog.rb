@@ -1,3 +1,5 @@
+require"pry"
+
 class Dog
 
   def initialize
@@ -14,5 +16,5 @@ class Dog
   def bark
      puts "woof!"
   end
-
+binding.pry
 end
